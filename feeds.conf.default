@@ -8,5 +8,6 @@ src-git helloworld https://github.com/fw876/helloworld
 #src-git targets https://github.com/openwrt/targets.git
 #src-git oldpackages http://git.openwrt.org/packages.git
 #src-link custom /usr/src/openwrt/custom-feed
-src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall-packages
-src-git passwall_luci https://github.com/xiaorouji/openwrt-passwall
+#src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall-packages
+#src-git passwall_luci https://github.com/xiaorouji/openwrt-passwall
+src-git OpenClash https://github.com/vernesong/OpenClash
