@@ -15,5 +15,8 @@
 
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
-#echo "src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall-packages" >>lede/feeds.conf.default
-#echo "src-git passwall_luci https://github.com/xiaorouji/openwrt-passwall" >>lede/feeds.conf.default
+echo "src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall-packages" >>lede/feeds.conf.default
+echo "src-git passwall_luci https://github.com/xiaorouji/openwrt-passwall" >>lede/feeds.conf.default
+echo "src-git passwall2_luci https://github.com/xiaorouji/openwrt-passwall2" >>lede/feeds.conf.default
+echo "src-git OpenClash https://github.com/vernesong/OpenClash" >>lede/feeds.conf.default
+echo "src-git adguardhome https://github.com/sonyvivo-c/luci-app-adguardhome" >>lede/feeds.conf.default
